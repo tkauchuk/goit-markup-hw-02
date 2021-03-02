@@ -4,9 +4,10 @@
   --primary-font-color: #212121;
   --secondary-font-color: #757575;
   --extra-font-color: #ffffff;
-  --header-bgc: #ffffff;
-  --main-bgc: #e5e5e5;
+  --primary-bgc: #ffffff;
+  --hero-bgc: #2f303a;
   --footer-bgc: #2f303a;
+  --extra-bgc: #f5f4fa;
   --accent-color: #2196f3;
 }
 
@@ -20,7 +21,7 @@
   font-style: normal;
 }
 body {
-  background-color: var(--main-bgc);
+  background-color: var(--primary-bgc);
   font-family: var(--primary-font);
   color: var(--primary-font-color);
 }
@@ -28,7 +29,7 @@ body {
 /* header-styles */
 
 .header {
-  background-color: var(--header-bgc);
+  background-color: var(--primary-bgc);
 }
 .logo {
   font-family: var(--secondary-font);
@@ -78,7 +79,75 @@ body {
   color: var(--accent-color);
 }
 
-/* section-styles */
+/* studio-sections-styles */
+
+.hero {
+  background-color: var(--hero-bgc);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--extra-font-color);
+}
+.hero-modal-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--extra-font-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.about-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-font-color);
+}
+.about-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+.occupation-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-font-color);
+}
+.our-team {
+  background-color: var(--extra-bgc);
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-font-color);
+}
+.team-item {
+  background-color: var(--primary-bgc);
+}
+.team-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-font-color);
+}
+.team-item-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+
+/* portfolio-sections-styles */
 
 .modal-button {
   font-family: inherit;
