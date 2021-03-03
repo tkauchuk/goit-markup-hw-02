@@ -83,6 +83,7 @@ body {
 
 .hero {
   background-color: var(--hero-bgc);
+  text-align: center;
 }
 .hero-title {
   font-weight: 900;
@@ -118,6 +119,7 @@ body {
 .occupation-title {
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-font-color);
 }
@@ -127,6 +129,7 @@ body {
 .team-title {
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-font-color);
 }
